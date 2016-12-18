@@ -53,8 +53,8 @@
 .scroll-icon {
 	position: absolute;
  	left: 50%;
-    bottom: 30px;
-    padding: 0 5px;
+    	bottom: 30px;
+    	padding: 0 5px;
   	-webkit-transform: translateX(-50%);
   	        transform: translateX(-50%);
 }
@@ -63,8 +63,9 @@
 .footer {
 	position: absolute;
  	left: 50%;
-    bottom: 30px;
-    padding: 0 10px;
+    	bottom: 10px;
+    	padding: 0 10px;
+	text-align:center;
   	-webkit-transform: translateX(-50%);
   	        transform: translateX(-50%);
 }
@@ -86,7 +87,7 @@
 }
 
 .icon-down-open-big:hover:after {
-	color: #FFFFFF;	
+    color: #FFFFFF;	
     size: large;
 }
 /* HELPER CLASSES
@@ -287,42 +288,31 @@ nav li a {
 
 nav li:nth-child(odd) a,
 body.fp-viewing-fifthSection-1 #menu li:nth-child(5) a {
-	/*background: #962D3E;*/
-    /*background:  #b2c4c4;*/
+
     background:  #adc0c6;
 }
 
 nav li:nth-child(even) a {
-	/*background: #aa3346;*/
-    /*background: #adb4c6;*/
+
      background: #adc0c6;
 }
 
 nav li:nth-child(odd) a:hover {
-    /*background: #9e2f41;*/
-    /*background: #e73981;*/
-    /*background: #a9d1c3;*/
+
     background: #a9d1c3;
 }
 
 nav li:nth-child(even) a:hover {
-    /*background: #c53c52;*/
+  
     background: #a9d1c3;
 }
 
 nav li.active a,
 body.fp-viewing-fifthSection-1 #menu li:last-child a {
-  /*background: #453659;*/
-  /*background: #00adad;*/
-  /*background: #adb4c6;*/
+	
     background:#90a4ae;
-  
- 
-  
 }
   
-
-
 /* SECTION STYLES - fullPage.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -335,7 +325,7 @@ h2 {
 	/*text-transform: lowercase;*/
 	font-size: 4em;
 	margin-bottom: 20px;
-    color: #2d2d27;
+        color: #2d2d27;
 }
 
 h3 {
@@ -409,48 +399,6 @@ h3 {
 	}
 }
 
-
-/*
-.quotator {
-  max-width: 480px;
-  font-family: 'Source Sans Pro',sans-serif;
-  font-size: 18px;
-  line-height: 1.375;
-  font-weight: 300;
-}
-.quotator figure {
-  margin: 0;
-  padding: 0 10px;
-}
-.quotator figcaption {
-  text-align: right;
-}
-.quotator small {
-  font-style: normal;
-}
-.quotator small > a {
-  text-decoration: none;
-}
-.quotator blockquote {
-  padding: 0;
-  margin: 0;
-}
-.quotator blockquote > p {
-  margin-top: 0;
-}
-
-.quote {
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.11);
-  padding: 10px;
-  background: #FFFFFF;
-}
-
-.quotator {
-  position: absolute;
-  width: 100%;
-  min-height: 18px;
-}
-*/
 .quote {
   position: absolute;
    /*top: 0;
@@ -575,63 +523,6 @@ p.aboutme{text-align: justify;
  60% {transform: translateY(-15px);}
 }
  
- /*---------------------CONTACT ME   PEN BY rocng-----------------------------------------*/
-
-/* 
- vertical-scrolling.section.flex-container {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  
-}
-
-/*
- vertical-scrolling.hr {
-  background-color: #37474F;
-  height: 1px;
-  width: 50%;
-  width: 100%;
-  max-width: 1350px;
-  margin: 0 auto;
-   
-}
-
-/*
-vertical-scrolling.section {
-  margin-bottom: 38px;
-  padding: 1000 15px;
-  
-  
-}
-*/
-
-/*
-#contact {
-  margin-bottom: 60px;
-  
-   
-}
-
-/*
-#contact #links {
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-}
-
-/*
-#contact #links div {
-  margin: 0;
-}
-*/
-
-
 #contact #links div:hover i {
   background-color: #37474F;
 }
@@ -665,17 +556,6 @@ vertical-scrolling.section {
 }
 
 
-
-
-/*
-#contact #links p {
-  margin: 0;
-  font-size: 14px;
-  display: inline-block;
-  /*visibility: hidden;*/
-}
-
-
 a:link {
    
     color: #FFFFFF !important;
@@ -695,19 +575,7 @@ a:active {
    
 }
 
-/*
-flex-container {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    vertical-align: bottom;
-    
-    
-    
-}
 
-*/
 
 /*center icons github, linked, codepen*/
 .contactme {
@@ -725,21 +593,4 @@ flex-container {
 padding: 10px 
     /*visibility: hidden;*/
 }
-
-
-/*footer
-
-
-.footer {
-	background: transparant;
-	height: 10px;
-	padding: 0 10px;
-	/*position: fixed;
-	bottom: 0;
-	width: 100%;
-	z-index: 12;
-	box-sizing: border-box;
-    
-}
-
 
