@@ -1,0 +1,95 @@
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #F4ECE3;
+}
+
+.quotator {
+  max-width: 480px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 18px;
+  line-height: 1.375;
+  font-weight: 300;
+}
+.quotator figure {
+  margin: 0;
+  padding: 0 10px;
+}
+.quotator figcaption {
+  text-align: right;
+}
+.quotator small {
+  font-style: normal;
+}
+.quotator small > a {
+  text-decoration: none;
+}
+.quotator blockquote {
+  padding: 0;
+  margin: 0;
+}
+.quotator blockquote > p {
+  margin-top: 0;
+}
+
+.quote {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.11);
+  padding: 20px;
+  background: white;
+}
+
+.quotator {
+  position: relative;
+  width: 100%;
+  min-height: 180px;
+}
+
+.quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate3d(100, -1, 1, 90deg);
+          transform: rotate3d(100, -1, 1, 90deg);
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  opacity: 0;
+}
+.quote.js-current {
+  -webkit-transform: rotate3d(1, 1, 1, 0);
+          transform: rotate3d(1, 1, 1, 0);
+  opacity: 1;
+}

@@ -1,0 +1,36 @@
+// Useless Demo Styles
+// Required CSS starts below this block
+// ========================================
+* {&:before,&:after {box-sizing: inherit;}}html{box-sizing: border-box;}html,body{height:100vh;}body{display:flex;flex-direction:column;align-items:center;justify-content:center;width: 100%;background:#F4ECE3;}.quotator{max-width:480px;font-family:'Source Sans Pro',sans-serif;font-size: 18px;line-height:1.375;font-weight:300;figure {margin:0;padding:0 10px;}figcaption{text-align:right;}small{font-style: normal; > a{text-decoration: none;}}blockquote{padding:0;margin:0; > p{margin-top:0;}}}.quote{box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.11);padding: 20px;background: white;}
+
+
+// Quotator Required CSS
+// customize transform & transition yoself!
+// ========================================
+
+$quotator-motion: (
+  from: rotate3d(100, -1, 1, 90deg),
+  to: rotate3d(1, 1, 1, 0)
+);
+
+.quotator {
+  position: relative;
+  width: 100%;
+  min-height: 180px;
+}
+
+.quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: map-get($quotator-motion, from);
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-property: transform, opacity;
+  opacity: 0;
+
+  &.js-current {
+    transform: map-get($quotator-motion, to);
+    opacity: 1;
+  }
+}
