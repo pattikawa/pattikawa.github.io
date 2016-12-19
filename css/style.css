@@ -381,10 +381,7 @@ h3 {
   nav li a {
     font-size: 1.5em;
   }
-  
-  .scroll-icon {
-    display: none;
-  }
+
 }
 
 @media screen and (max-width: 400px) {
