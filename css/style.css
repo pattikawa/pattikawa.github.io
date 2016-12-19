@@ -404,9 +404,15 @@ h3 {
 		font-size: 50%;
 	}
 	
-	.contactme {
+	.mailme {
 		font-size: 50%;
     	}
+	
+	#contact #links i {
+  	height: 40px;
+  	width: 40px;
+  	font-size: 2.3em;
+  	padding: 5px;
 	
 }
 
