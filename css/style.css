@@ -363,59 +363,6 @@ h3 {
 
 
 
-/* MQ STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@media screen and (max-width: 767px) {
-	nav ul {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-	}
-
-	nav li {
-		margin-top: 1px;
-	}
-  
-  nav li a {
-    font-size: 1.5em;
-  }
-
-}
-
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-  
-  .open-menu ~ nav {
-		padding: 20px 0;
-	}
-
-	nav li a {
-		padding: 3px;
-	}
-	.footer{
-		font-size: 30%;
-	}
-	
-	.scroll-icon{
-		font-size: 50%;
-	}
-	
-	.mailme {
-		font-size: 50%;
-    	}
-	
-	#contact #links i {
-  	height: 40px;
-  	width: 40px;
-  	font-size: 2.3em;
-  	padding: 5px;
-	
-}
-
 
 .quote {
   position: absolute;
@@ -611,4 +558,60 @@ a:active {
 padding: 10px 
     /*visibility: hidden;*/
 }
+
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 767px) {
+	nav ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	nav li {
+		margin-top: 1px;
+	}
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  
+  .open-menu ~ nav {
+		padding: 20px 0;
+	}
+
+	nav li a {
+		padding: 3px;
+	}
+	.footer{
+		font-size: 30%;
+	}
+	
+	.scroll-icon{
+		font-size: 50%;
+	}
+	
+	.mailme {
+		font-size: 50%;
+    	}
+	
+	#contact #links i {
+  	height: 40px;
+  	width: 40px;
+  	font-size: 2.3em;
+  	padding: 5px;
+	
+}
+
+
 
