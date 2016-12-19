@@ -620,6 +620,11 @@ padding: 10px
 	#contact #links #mailme i {
 		  font-size: 1em;
 	}
+	
+	
+	#aboutme {
+		font-size: 60%;
+    	}
 }
 
 
