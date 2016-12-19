@@ -399,7 +399,17 @@ h3 {
 	.footer{
 		font-size: 30%;
 	}
+	
+	.scroll-icon{
+		font-size: 50%;
+	}
+	
+	.contactme {
+		font-size: 50%;
+    	}
+	
 }
+
 
 .quote {
   position: absolute;
