@@ -82,7 +82,7 @@
 
 .icon-down-open-big:after {
   content: "^";
-  font-size: 8em;
+  font-size: 6em;
   display: block;
   color:  #000000;
   -webkit-transition: color .3s;
