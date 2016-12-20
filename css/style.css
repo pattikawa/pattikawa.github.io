@@ -580,17 +580,17 @@ and (max-device-width : 1024px)  { nav ul {
   	}
 	
 	h1.aboutme {
-		font-size: 70%;
+		font-size: 90%;
         	padding-top: 80px;
     	}
         
     	p.aboutme {
-		font-size: 60%;
+		font-size: 80%;
     	}
         
      img {
 
-	      width: 10%;
+	      width: 40%;
 	      padding: .1em;
 	      margin-bottom: -1em;
 	      border-radius: 50%;
