@@ -579,7 +579,7 @@ padding: 10px
 	
 	h1.aboutme {
 		font-size: 90%;
-        	padding-top: 40px;
+        	padding-top: 80px;
     	}
         
     	p.aboutme {
@@ -588,7 +588,7 @@ padding: 10px
         
      img {
 
-	      width: 40%;
+	      width: 30%;
 	      padding: .1em;
 	      margin-bottom: -2em;
 	      border-radius: 50%;
