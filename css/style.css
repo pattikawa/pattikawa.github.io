@@ -63,8 +63,8 @@
 .scroll-icon {
 	position: absolute;
  	left: 50%;
-    	bottom: 20px;
-    	padding: 10px 10px;
+    	bottom: 30px;
+    	padding: 30px 30px;
   	-webkit-transform: translateX(-50%);
   	        transform: translateX(-50%);
 }
@@ -595,8 +595,7 @@ padding: 10px
 	}
 	.footer{
 		font-size: 40%;
-        	bottom: 0;
-    	
+        	bottom: 0;    	
 	}
 	
 	.quote{
@@ -624,8 +623,8 @@ padding: 10px
 	 position: absolute;
 	 bottom: 30px;
 	 left: 50% ;
-	 width: 20px;
-	 height: 20px ;
+	 width: 30px;
+	 height: 30px ;
 
 }
 
@@ -649,10 +648,10 @@ padding: 10px
 	
 	h1.aboutme {
 		font-size: 90%;
-        padding-top: 30px;
+        	padding-top: 30px;
     	}
         
-    p.aboutme {
+    	p.aboutme {
 		font-size: 70%;
     	}
         
