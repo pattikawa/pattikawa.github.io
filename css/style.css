@@ -450,10 +450,10 @@ p.aboutme{text-align: justify;
  
 .bounce {
  position: absolute;
- bottom: 30px;
+ bottom: 40px;
  left: 50% ;
- width: 60px;
- height: 60px ;
+ width: 70px;
+ height: 70px ;
  margin-left:-30px;
  /*border: 2px solid #990000;*/
  -webkit-border-radius:50%;
