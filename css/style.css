@@ -600,23 +600,29 @@ and (max-device-width : 1024px)  { nav ul {
     	}*/
 }
 
-/*@media screen and (max-width: 767px) {
-	
 
-}*/
 
 @media screen and (max-width: 400px) {
-  html {
+  	html {
     font-size: 50%;
   }
-  
-  .open-menu ~ nav {
-		padding: 20px 0;
+	
+	nav ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 
-	nav li a {
-		padding: 3px;
+	nav li {
+		margin-top: 1px;
 	}
+  
+  	nav li a {
+    		font-size: 1em;
+  	}
+  
+
 	.footer{
 		font-size: 40%;
         	bottom: 0;    	
@@ -688,6 +694,10 @@ and (max-device-width : 1024px)  { nav ul {
       background: rgba(255, 255, 255, .4);
       box-shadow: .2em .2em .2em rgba(0, 0, 0, .4);
     
+    }
+	
+    .caption-content i {
+        font-size: 1.5em;
     }
         
 }
