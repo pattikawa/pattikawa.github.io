@@ -580,15 +580,15 @@ and (max-device-width : 1024px)  { nav ul {
   	}
 	
 	h1.aboutme {
-		font-size: 90%;
-        	padding-top: 80px;
+		
+        	padding-top: 30px;
     	}
         
     	p.aboutme {
 		font-size: 80%;
     	}
         
-     img {
+    /* img {
 
 	      width: 40%;
 	      padding: .1em;
@@ -597,7 +597,8 @@ and (max-device-width : 1024px)  { nav ul {
 	      background: rgba(255, 255, 255, .4);
 	      box-shadow: .1em .1em .1em rgba(0, 0, 0, .4);
     
-    	}}
+    	}*/
+}
 
 /*@media screen and (max-width: 767px) {
 	
