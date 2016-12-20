@@ -594,7 +594,9 @@ padding: 10px
 		padding: 3px;
 	}
 	.footer{
-		font-size: 60%;
+		font-size: 40%;
+        bottom: 0;
+    	
 	}
 	
 	.quote{
@@ -602,9 +604,32 @@ padding: 10px
 	}
 	
 	.scroll-icon{
-		font-size: 50%;
+		font-size: 80%;
+              
 	}
+    
+    .icon-up-open-big:after {
+ 
+        font-size: 4em;
+
+    }
 	
+    .icon-down-open-big:after {
+ 
+        font-size: 4em;
+
+    }
+    
+    .bounce {
+ position: absolute;
+ bottom: 20px;
+ left: 50% ;
+ width: 10px;
+ height: 10px ;
+
+}
+
+    
 	.mailme {
 		font-size: 50%;
     	}
@@ -622,10 +647,28 @@ padding: 10px
 	}
 	
 	
-	#aboutme {
-		font-size: 60%;
+	h1.aboutme {
+		font-size: 90%;
+        padding-top: 30px;
     	}
+        
+    p.aboutme {
+		font-size: 70%;
+    	}
+        
+     img {
+
+      width: 40%;
+      padding: .1em;
+      margin-bottom: -2em;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .4);
+      box-shadow: .2em .2em .2em rgba(0, 0, 0, .4);
+    
+    }
+        
 }
+
 
 
 
