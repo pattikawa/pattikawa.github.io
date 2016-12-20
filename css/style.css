@@ -573,9 +573,29 @@ padding: 10px
 		margin-top: 1px;
 	}
   
-  nav li a {
-    font-size: 1.5em;
-  }
+  	nav li a {
+    		font-size: 1.5em;
+  	}
+	
+	h1.aboutme {
+		font-size: 90%;
+        	padding-top: 30px;
+    	}
+        
+    	p.aboutme {
+		font-size: 70%;
+    	}
+        
+     img {
+
+	      width: 60%;
+	      padding: .1em;
+	      margin-bottom: -2em;
+	      border-radius: 50%;
+	      background: rgba(255, 255, 255, .4);
+	      box-shadow: .2em .2em .2em rgba(0, 0, 0, .4);
+    
+    	}
 
 }
 
